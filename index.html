@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Temperature</title>
+</head>
+
+
+<body>
+  <div class = "tempcon">
+    <h1>Temperature Converter</h1>
+  </div>
+
+  <div id = "tempInput">
+    <input id = "inputButton" type="number" placeholder="Temperature">
+  </div>
+
+  <div class = "radiobuttons">
+    <input class="raduttons" id="f" type="radio" name="temperature" value="fahrenheit" checked>°F
+    <input class="raduttons" id="c" type="radio" name="temperature" value="degressCelsius">°C
+  </div>
+
+  <div class="submitbuttons">
+    <button id = "submission" type="button">Submit</button>
+    <button id = "clearing" type="button">Clear</button>
+  </div>
+
+  <div class="evaluation">
+    <p id = "answer">
+      Waiting for input..
+    </p>
+  </div>
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
